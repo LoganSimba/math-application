@@ -52,5 +52,13 @@ public class MathApp {
         double absNegativeNumber = Math.abs(negativeNumber);
         System.out.println("Absolute value of " +negativeNumber + " is " + absNegativeNumber);
 
+
+
+        //7. add random number between 0 and 1
+        double randomNumber = Math.random();
+        System.out.printf("Random number is %.2f%n" , randomNumber);
+
+
+
     }
 }
