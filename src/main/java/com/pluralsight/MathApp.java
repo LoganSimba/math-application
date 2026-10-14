@@ -59,6 +59,16 @@ public class MathApp {
         System.out.printf("Random number is %.2f%n" , randomNumber);
 
 
+        // 8. calulate how many minutes in 24 days and print it
+        int days = 24;
+        int hoursPerDay = 24;
+        int minutesPerHour = 60;
+
+        int hours = days * hoursPerDay;
+        int minutes = hours * minutesPerHour;
+
+        System.out.println("Minutes in 24 days: " + minutes);
+
 
     }
 }
