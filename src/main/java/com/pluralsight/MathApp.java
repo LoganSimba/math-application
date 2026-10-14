@@ -24,8 +24,11 @@ public class MathApp {
         System.out.println("The lower price is between truck and car is " + lowestPrice + "$");
 
 
-
-
+        //step 3, calculating the area of a circe and printing it
+        double radius = 8.25;
+        double area = Math.PI * Math.pow(radius,2);
+        System.out.println("Radius = " + radius);
+        System.out.println("Area of a circle is " + area);
 
 
 
