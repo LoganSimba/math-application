@@ -36,7 +36,15 @@ public class MathApp {
         double squareRoot = Math.sqrt(number);
         System.out.println("Square root of 5.0: " + squareRoot);
 
+        // 5. Distance between (5, 10) and (85, 50)
+        double x1 = 5;
+        double y1 = 10;
+        double x2 = 85;
+        double y2 = 50;
 
+        // formula for calculating the distanced and print it
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        System.out.println("Distance between the points (5,10) and (85,82) is " + distance);
 
 
     }
