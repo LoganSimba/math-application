@@ -8,6 +8,15 @@ public class MathApp {
 
         // highest salary of our two variables
         int highestSalary = Math.max(bobSalary,garySalary);
+        System.out.println("Bob's salary is = " + bobSalary);
+        System.out.println("garySalary is = " + garySalary);
+        System.out.println("The highest salary is " + highestSalary);
+
+
+
+
+
+
 
 
 
