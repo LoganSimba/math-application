@@ -44,8 +44,13 @@ public class MathApp {
 
         // formula for calculating the distanced and print it
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-        System.out.println("Distance between the points (5,10) and (85,82) is " + distance);
+        System.out.printf("Distance between the points (5,10) and (85,82) is %.2f%n " , distance);
 
+
+        // 6. use absolute(positive) value of a variable
+        double negativeNumber = -3.8;
+        double absNegativeNumber = Math.abs(negativeNumber);
+        System.out.println("Absolute value of " +negativeNumber + " is " + absNegativeNumber);
 
     }
 }
