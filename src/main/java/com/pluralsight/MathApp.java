@@ -25,10 +25,17 @@ public class MathApp {
 
 
         //step 3, calculating the area of a circe and printing it
-        double radius = 8.25;
+        double radius = 7.25;
         double area = Math.PI * Math.pow(radius,2);
         System.out.println("Radius = " + radius);
         System.out.println("Area of a circle is " + area);
+
+
+        // 4.square root
+        double number = 5.0;
+        double squareRoot = Math.sqrt(number);
+        System.out.println("Square root of 5.0: " + squareRoot);
+
 
 
 
